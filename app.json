@@ -28,6 +28,6 @@
     }
   },
   "scripts": {
-    "start": "python your_file.py"
+    "start": "scrape.py"
   }
 }
