@@ -1,8 +1,0 @@
-.dockerignore
-.dockerignore~
-.git
-.gitignore
-.idea
-.vscode
-.DS_Store
-Thumbs.db
