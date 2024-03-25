@@ -1,0 +1,33 @@
+{
+  "name": "Scrape",
+  "description": "Telegram bot deployed on Heroku",
+  "repository": "https://github.com/Adnan69x/Scrape",
+  "keywords": ["telegram", "bot", "heroku"],
+  "addons": [],
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ],
+  "env": {
+    "YOUR_API_ID": {
+      "description": "Your Telegram API ID",
+      "required": true
+    },
+    "YOUR_API_HASH": {
+      "description": "Your Telegram API hash",
+      "required": true
+    },
+    "YOUR_BOT_TOKEN": {
+      "description": "Your Telegram bot token",
+      "required": true
+    },
+    "YOUR_GROUP_OR_CHANNEL_LINK": {
+      "description": "Link to the Telegram group or channel to scrape members from",
+      "required": true
+    }
+  },
+  "scripts": {
+    "start": "python your_file.py"
+  }
+}
